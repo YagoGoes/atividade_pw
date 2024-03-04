@@ -1,0 +1,199 @@
+
+body {
+    margin: 0;
+    background-image: url(img/background_.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: hidden;
+}
+.topnav {
+    background-color: rgb(0, 49, 134);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.topnav a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 10px;
+}
+.topnav a:hover {
+    background-color: rgb(143, 145, 255);
+    color: rgb(255, 255, 255);
+}
+.topnav a.ativo {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.fachada {
+    height: 35vw;
+    padding: 5% 10%;
+    display: flex;
+    justify-content: center;
+}
+.img_fachada{
+    display: contents;
+}
+.img_f{
+    border-radius: 30px;
+    margin-right:   3vw;
+}
+
+.txt_fachada{
+    display: grid;
+    width: 40vw;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.844);
+    margin-left: 3;
+    border-radius: 30px;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1vw;
+    text-align: justify;
+    color: white;
+}
+
+.package-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .package-description {
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+    .package-description li {
+        margin-bottom: 8px;
+    }
+
+  .package-price {  
+    margin-left: 3.5%;  
+    bottom: 21%;
+    position: absolute;
+    font-size: 20px;
+    color: rgb(0, 49, 134);
+  }
+
+.container {
+    margin-left: 4.7%;  
+    bottom: 17%;
+    position: absolute;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .button {
+    display: inline-block;
+    background-color: rgb(0, 49, 134);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.5s;
+  }
+
+  .button:hover {
+    background-color: #0056b3;
+  }
+
+.forms{
+    background-color: rgb(0, 49, 134);
+    padding-top: 1%;
+    padding-bottom: 3%;
+    border-radius: 40px;
+    width: 60%;
+    height: auto;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 4vw;
+
+}
+
+.f_nome, .f_email, .f_msg, .f_buttons, .f_telefone, .f_assunto{
+    margin: 1.2vw 0vw 0vw 0vw;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#fl-nome, #fl-email, #fl-msg, #fl-telefone, #fl-assunto{
+    width: 7.5vw;
+    font-size: 1.2vw;
+    text-align: left;
+    color: white;
+}
+
+#nome, #email, #mensagem, #telefone, #assunto{
+    width: 50%;
+    height: fit-content;
+    font-size: 1.2vw;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.417);
+    color: white;
+}
+
+.h_ctt{ 
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.f_buttons{
+    justify-content: center;
+}
+
+.btn_limpa, .btn_envia{
+    width: 8vw;
+    height: 3vw;
+    margin-left: 11vw;
+    margin-right: 3.5vw;
+    font-size: 1.2vw;
+    border-radius: 20px;
+}
+
+.packs{
+    text-align: center;
+    margin: 2% 5% 0% 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.pack_rs, .pack_ce, .pack_pe, .pack_sp{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    height: 35vw;
+    width: 25vw;
+    margin: 2vw 2vw 2vw 2vw;
+    border: 2px  rgb(0, 49, 134);
+    box-shadow: 5px 20px 30px rgb(0, 49, 134);
+    display: block;
+}
+.img_pack{
+    width: 100%;
+    height: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px 30px 0px 0px;
+}
